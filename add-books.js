@@ -1,4 +1,4 @@
-// Знаходимо саме кнопку (button), а не посилання (a)
+
 const startBtn = document.querySelector('button.main-button');
 const textarea = document.getElementById('books-bulk-input');
 const counter = document.getElementById('book-count');
