@@ -1,0 +1,184 @@
+@media screen and (max-width: 767px) {
+    
+    /* 1. Дозволяємо всьому контенту скролитися */
+    html, body {
+        height: auto !important; 
+        overflow-y: auto !important;
+    }
+    .main-header {
+    justify-content: center;
+
+}
+   .logo {
+    margin: 20px 0 0 0;
+   }
+
+    /* 2. Головна секція (Hero) */
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto !important; 
+        min-height: 100vh;
+        gap: 20px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* 3. Фото дівчини */
+    .hero-image-section {
+        width: 100%;
+        max-width: 320px; 
+        height: auto !important;
+    }
+
+    .hero-image-section img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 0 0 40px 40px; 
+    }
+
+    /* 4. Текст (Заголовок) */
+    .hero-text-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .main-title {
+        font-size: 32px !important;
+        line-height: 1.2;
+    }
+
+    /* 5. Кнопки та описи */
+    .description {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+.button-group {
+    justify-content: center;
+}
+    .main-button {
+        width: 350px; 
+        padding: 16px !important;
+        font-size: 18px !important;
+        margin-bottom: 20px;   
+        justify-content: center;
+     }
+
+
+
+
+ .add-books-container {
+        display: block !important; 
+        padding: 80px 20px 40px 20px !important; 
+        min-height: 100vh;
+    }
+
+
+    .bento-input, .bento-item {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    /* 4. Заголовок "Add Books" */
+    .page-title {
+        font-family: 'Lora', serif; /* Твій шрифт */
+        font-size: 36px !important;
+        margin-bottom: 10px !important;
+        text-align: left;
+    }
+
+    /* 5. Інфо-рядок  */
+    .input-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .input-info span:first-child {
+        opacity: 0.8;
+        line-height: 1.3;
+    }
+
+    #book-count {
+        border: 1px solid #151413;
+        border-radius: 20px;
+        padding: 2px 12px;
+        white-space: nowrap;
+    }
+
+
+    #books-bulk-input {
+        width: 100% !important;
+        height: 380px !important;
+        background-color: transparent !important;
+        border: 2px dashed #d1ccad !important;
+        border-radius: 24px !important;
+        padding: 20px !important;
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        outline: none;
+        resize: none;
+        margin-bottom: 25px !important;
+        box-sizing: border-box;
+    }
+
+
+    .buttons-group {
+        display: flex;
+        flex-direction: column !important; 
+        gap: 15px;
+    }
+
+    /* 8. Стиль кнопок */
+    .main-button {
+        width: 100% !important;
+        height: auto !important;
+        padding: 16px !important;
+        border-radius: 14px !important;
+        font-size: 16px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+
+    button.main-button {
+
+        order: 1; 
+    }
+
+   
+    a.main-button {
+
+        order: 2; 
+    }
+
+
+    button.main-button svg {
+        width: 24px !important;
+        height: 24px !important;
+    }
+    /* 6. Сітка рандомайзера  */
+    .books-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px;
+        width: 100%;
+        height: auto !important;
+    }
+
+
+    hr {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
